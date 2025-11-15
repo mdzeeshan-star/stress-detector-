@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult, StressLevel } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDOQmy085cvVN1kBEYEjVyDmFcGyHMk76A" });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 const responseSchema = {
     type: Type.OBJECT,
