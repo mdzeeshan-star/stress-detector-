@@ -1,12 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult, StressLevel } from '../types';
 
-if (!process.env.API_KEY) {
-    // This is a placeholder for development. In a real environment, the key is expected to be set.
-    console.warn("API_KEY environment variable not set. Using a placeholder. Please provide a valid API key for the app to function.");
-}
-
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyDOQmy085cvVN1kBEYEjVyDmFcGyHMk76A" });
 
 const responseSchema = {
     type: Type.OBJECT,
