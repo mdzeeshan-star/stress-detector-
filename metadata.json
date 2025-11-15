@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Stress Level Detector",
+  "description": "An AI-powered tool that analyzes the emotional tone of text to estimate stress levels. It provides a prediction, confidence score, and explanation based on natural language patterns.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
